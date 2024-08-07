@@ -10,7 +10,7 @@ class OnnxWrapper {
     private sample_rates: number[];
     private sessionReady: Promise<void>;
 
-    constructor(path: string, force_onnx_cpu: boolean = false) {
+    constructor(path: string, force_onnx_cpu: boolean = true) {
         this.sessionReady = this.initSession(path, force_onnx_cpu);
         this.reset_states();
         this.sample_rates = [8000, 16000];
