@@ -1,7 +1,7 @@
 {
   "name": "dd-vad",
   "version": "1.0.0",
-  "description": "It's typescript based VAD that uses silero-vad under the hood. It's highly robust for Voice Activity Detection.",
+  "description": "It's typescript based VAD that uses silero-vad under the hood. It's highly robust for Voice Activity Detection. It only works in the browser.",
   "main": "dist/dd-vad.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -20,7 +20,8 @@
     "silero-vad",
     "vad",
     "dictation",
-    "daddy"
+    "daddy",
+    "browser"
   ],
   "author": "Rahul Bansal",
   "license": "ISC",
@@ -30,9 +31,6 @@
   },
   "devDependencies": {
     "@types/node": "^22.1.0",
-    "copyfiles": "^2.4.1",
-    "http-server": "^14.1.1",
-    "nodemon": "^3.1.4",
     "ts-loader": "^9.3.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.4",

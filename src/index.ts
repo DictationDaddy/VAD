@@ -1,6 +1,3 @@
-import OnnxWrapper from './utils_vad';
+import { SpeechChunks } from './SpeechChunks'
 
-console.log("DD-VAD initialized");
-
-// Export any functions or variables you want to make available
-export { OnnxWrapper };
+export default SpeechChunks;
